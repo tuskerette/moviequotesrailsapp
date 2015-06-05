@@ -44,7 +44,7 @@ class UsersController < ApplicationController
 
   def increment_points
     @user = User.find(params[:id])
-    @user.points++
+    @user.points = @user.points+1
     render json: @user
   end
 
