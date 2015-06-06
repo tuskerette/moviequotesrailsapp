@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   resources :users, except: [:new, :edit] do
     resources :guesses, except: [:new, :edit]
   end
-  post 'users/:id/increment_points' => 'user#increment_points'
+  post 'users/:id/increment_points' => 'users#increment_points'
 
   # Example of regular route:
     #get 'moviequotes/:id' => 'moviequotes#view'

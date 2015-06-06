@@ -2,9 +2,9 @@ Moviequote.destroy_all
 User.destroy_all
 Guess.destroy_all
 
-brucey = User.create!(name: 'Brucey', email:"brucey@example.com", password:"123456")
-johnny = User.create!(name: 'Johnny', email:"johnny@example.com", password:"123456")
-pardo = User.create!(name: 'Pardo', email:"pardo@example.com", password:"123456")
+brucey = User.create!(name: 'Brucey', email:"brucey@example.com", password:"123456", points:1)
+johnny = User.create!(name: 'Johnny', email:"johnny@example.com", password:"123456", points:1)
+pardo = User.create!(name: 'Pardo', email:"pardo@example.com", password:"123456", points:1)
 mq1 = Moviequote.create!(quote:"Use the force, Luke", title:"star wars")
 mq2 = Moviequote.create!(quote:"Leave the guns, take the cannolis", title:"the godfather")
 mq3 = Moviequote.create!(quote:"You talking to me?", title:"taxi driver")
