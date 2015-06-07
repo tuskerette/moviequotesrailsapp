@@ -1,5 +1,5 @@
 class GuessSerializer < ActiveModel::Serializer
-  attributes :titleguess, :id
+  attributes :titleguess, :id, :user_id
 
   def user
     object.user

@@ -41,10 +41,18 @@ class UsersController < ApplicationController
     head :no_content
   end
 
-
+  # POST increment points on solved quote
   def increment_points
     @user = User.find(params[:id])
     @user.points = @user.points + 1
+    @user.save!
+    render json: @user
+  end
+
+  def reset_points
+    @user = User.find(params[:id])
+    @user.points = 0
+    @user.save!
     render json: @user
   end
 
