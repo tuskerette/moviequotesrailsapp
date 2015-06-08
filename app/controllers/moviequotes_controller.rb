@@ -2,7 +2,7 @@ class MoviequotesController < ApplicationController
 
   # GET /moviequotes
   def index
-    @moviequotes = Moviequote.all
+    @moviequotes = Moviequote.all.order("RANDOM()")
     render json: @moviequotes
   end
 
