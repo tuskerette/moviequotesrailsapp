@@ -4,7 +4,7 @@
 
 * **Guess the Movie version 1.0 6/7/15 by Valeria Graffeo**
 
-- This is the README file for the back end of the single page aplication "Guess the Movie visible at: http://www.thewaukees.com/MovieQuotes/.
+- This is the README file for the back end of the single page aplication "Guess the Movie visible at[http://tuskerette.github.io/MovieQuotesFrontEnd/](http://tuskerette.github.io/MovieQuotesFrontEnd/).
 - The goal of the app is to guess the movie title for movie quotes.
 - The API, the resourse feeding the data, is hosted on HEROKU at this address: https://ancient-fortress-5331.herokuapp.com/
 
